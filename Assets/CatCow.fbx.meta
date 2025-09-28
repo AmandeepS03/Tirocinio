@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 54a1f6ad4ae85da469e0982866e01f97
+guid: 5531153d2f1d84447b1b09c2dff41e05
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,42 +7,42 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: avatarsdraiato
-    second: {fileID: 2100000, guid: a8dfe0f4e07b1e743b1b98ace635fca4, type: 2}
+      name: avatarmh
+    second: {fileID: 2100000, guid: a3b17a829b3c9654180d1056916a2a6e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: elvs_disco_pant1
+      name: elvs_disco_pant1.001
     second: {fileID: 2100000, guid: 5edb29d7164e2a74196844afbb410f7a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: eyelashes03
+      name: eyelashes03.001
     second: {fileID: 2100000, guid: dd8a55fde4f7dff478d4371a1c13d4c5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: high-poly
+      name: high-poly.001
     second: {fileID: 2100000, guid: 442128d21eb7d844cb452846acf7316c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: mind_eyebrows_01
+      name: mind_eyebrows_01.001
     second: {fileID: 2100000, guid: e8436fda59d7c864d8616737554c6e9f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: ponytail01
+      name: ponytail01.001
     second: {fileID: 2100000, guid: 493fcd3f39c3e8d47b6062fd84ae8d68, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: runningshoes
+      name: runningshoes.001
     second: {fileID: 2100000, guid: a38c08e8b2fa4894595b88c0cef4d2c0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: sleevelesscroptop
+      name: sleevelesscroptop.001
     second: {fileID: 2100000, guid: 2662758f4bcb4d242af8f118c956bc56, type: 2}
   materials:
     materialImportMode: 2
@@ -139,7 +139,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
