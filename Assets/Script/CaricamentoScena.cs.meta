@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d22eb8f0d25a91347a1537cc7b18badc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - plank: {fileID: 919132149155446097, guid: 54670dfb3acf15e4f990b0bc232efc29, type: 3}
+  - bridge: {fileID: 919132149155446097, guid: 54a1f6ad4ae85da469e0982866e01f97, type: 3}
+  - wallAngels: {fileID: 919132149155446097, guid: e83dcbd939052f746a0730326fcd8c6b, type: 3}
+  - catCow: {fileID: 919132149155446097, guid: cf508c426f3226345b2425d54ab3c45c, type: 3}
+  - birdDog: {fileID: 919132149155446097, guid: 5531153d2f1d84447b1b09c2dff41e05, type: 3}
+  - cameraWA: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
