@@ -2,18 +2,15 @@ using UnityEngine;
 
 public class CaricamentoScena : MonoBehaviour
 {
-    public GameObject plank;
-    public GameObject bridge;
-    public GameObject wallAngels;
-    public GameObject catCow;
-    public GameObject birdDog;
-
-    //public Camera cameraWA;
+   
 
     void Start()
     {
+        Camera cameraMain = GameObject.Find("Camera").GetComponent<Camera>();
         Camera cameraWA = GameObject.Find("CameraWA").GetComponent<Camera>();
-       
+
+        GameObject canvasWA = GameObject.Find("CanvasWA");
+    
         GameObject plank = GameObject.Find("Plank");
         GameObject bridge = GameObject.Find("Bridge");
         GameObject wallAngels = GameObject.Find("WallAngels");
@@ -22,6 +19,7 @@ public class CaricamentoScena : MonoBehaviour
         
          // Disattivo tutto all'inizio
         cameraWA.gameObject.SetActive(false);
+        canvasWA.gameObject.SetActive(false);
         plank.SetActive(false);
         bridge.SetActive(false);
         wallAngels.SetActive(false);
@@ -36,10 +34,10 @@ public class CaricamentoScena : MonoBehaviour
             case 1: plank.SetActive(true); break;
             case 2: bridge.SetActive(true); break;
             case 3:
-                if (Camera.main != null)
-                    Camera.main.gameObject.SetActive(false);
-                // if (cameraWA != null)
+                
+                cameraMain.gameObject.SetActive(false);
                 cameraWA.gameObject.SetActive(true);
+                canvasWA.gameObject.SetActive(true);
                 wallAngels.SetActive(true);
                 break;
             case 4: catCow.SetActive(true); break;
